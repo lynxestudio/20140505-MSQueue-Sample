@@ -35,7 +35,7 @@ Al ejecutar el programa solicitará los siguientes parámetros:
 </ul>
 </p>
 <div>
-<IMG src="picture_library/msmq/fig1.png" width="713">
+<IMG src="images/fig1.png" width="713">
 </div><br>
 <p align="justify">
 Al crearse la cola de mensajes el programa regresará el identificador: <b>00000000−0000−0000−0000−000000000000</b> por tratarse de una cola de mensajes privadas <i>(private MSMQ)</i>.
@@ -44,19 +44,19 @@ Al crearse la cola de mensajes el programa regresará el identificador: <b>00000
 Ahora el programa solicitará el título y el cuerpo del mensaje, después lo enviará hacia la cola de mensajes creada.
 </p>
 <div>
-<IMG src="picture_library/msmq/fig2.png" width="713">
+<IMG src="images/fig2.png" width="713">
 </div><br>
 <p align="justify">
 Para ver la cola de mensajes creada con el programa y el mensaje enviado, ejecutamos <i>Computer Management</i> de Windows que se encuentra en la ruta Control <i>Panel\System and Security\Administrative Tools</i> y debajo del nodo de <i>Services and Applications</i> veremos el nodo <i>Private Queues</i> debajo del nodo <b>Message Queuing</b> donde se encuentra la línea de espera creada con el programa de ejemplo.
 </p>
 <div>
-<IMG src="picture_library/msmq/fig3.png" width="713">
+<IMG src="images/fig3.png" width="713">
 </div><br>
 <p>Debajo de la cola de espera <b>myfirstqueue</b>, se encuentra la carpeta <b>Queue messages</b> en donde se puede ver la etiqueta del mensaje.</p>
 <div>
-<IMG src="picture_library/msmq/fig4.png" width="713">
+<IMG src="images/fig4.png" width="713">
 </div><br>
 <p>Si hacemos doble click en el mensaje aparecerá una ventana con cuatro pestañas en donde podemos ver las propiedades del mensaje, en la pestaña body podemos ver el contenido del mensaje.</p>
 <div>
-<IMG src="picture_library/msmq/fig5.png">
+<IMG src="images/fig5.png">
 </div>
